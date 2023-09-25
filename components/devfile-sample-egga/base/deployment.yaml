@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-egga
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0025-tenant/ci10t-786-0025-app/devfile-sample-egga@sha256:e2e21f7de2d47cc35ad4afbc404676785bb3b20610b1ec871623f313eefabb58
         name: my-nodejs
         ports:
         - containerPort: 3001
